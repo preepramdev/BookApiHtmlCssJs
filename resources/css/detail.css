@@ -1,0 +1,73 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topBar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width:100%;
+    height: 56px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+    background-color: #6200EE;
+}
+
+.topText {
+    margin-left: 16px;
+    color: white;
+}
+
+#container {
+    padding: 24px;
+    margin: 16px;
+    background-color: #03DAC5;
+    color: white;
+    border-radius: 4px;
+}
+
+div p {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    margin-left: 4px; 
+    display: inline-block;
+}
+
+.centerButton {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#updateButton {
+    width: 120px;
+    margin-top: 8px;
+    background-color: #6200EE;
+    color: white;
+    border-style: unset;
+}
+
+#removeButton {
+    width: 120px;
+    margin-top: 8px;
+    background-color: white;
+    border-color: #D3D3D3;
+    color: red;
+    border-style: groove;
+}
