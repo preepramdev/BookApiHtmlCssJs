@@ -1,4 +1,4 @@
-const baseUrl = "https://ancient-brook-04057.herokuapp.com"
+const baseUrl = "https://my-mock-json-api-jkc5omn42a-as.a.run.app/"
 
 const list = document.getElementById('list')
 const addButton = document.getElementById('addButton')
